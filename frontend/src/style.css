@@ -11,3 +11,16 @@
 .brand img{border-radius:50%;background:#fff;object-fit:contain;box-shadow:0 0 0 1px #ffffff18}
 
 .progress-card button{margin-left:auto;align-self:center;flex-shrink:0}
+
+
+/* THOORIGA_PAINTBRUSH_BRAND_V2 */
+/* Use the supplied paintbrush-shutter emblem consistently in dark UI. */
+.brand img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
+.brand-symbol { width: 19px; height: 19px; object-fit: cover; border-radius: 5px; flex-shrink: 0; display: inline-block; vertical-align: middle; }
+.empty-aperture { transform: none; background: transparent; border: none; border-radius: 20px; }
+.empty-aperture::before { display: none; }
+.empty-aperture .brand-symbol { width: 88px; height: 88px; border-radius: 22px; transform: none; }
+.runtime-icon .brand-symbol, .workspace-avatar .brand-symbol { width: 22px; height: 22px; border-radius: 6px; }
+.result-banner .brand-symbol { width: 21px; height: 21px; }
+.analyze-button .brand-symbol { width: 17px; height: 17px; border-radius: 4px; }
+@media(max-width:520px) { .brand img { width: 34px; height: 34px; } .empty-aperture .brand-symbol { width: 76px; height: 76px; border-radius: 18px; } }
