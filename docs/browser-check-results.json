@@ -1,0 +1,50 @@
+{
+  "base_url": "http://127.0.0.1:5173",
+  "mocked_ai": false,
+  "checks": {
+    "real_upload_preview": true,
+    "mode_format_size_selection": true,
+    "filter_search_sort": true,
+    "duplicate_group_visible": true,
+    "side_by_side_comparison": true,
+    "selection_deselection_restore_reorder": true,
+    "real_zip_export": true,
+    "brief_validation": true,
+    "real_missing_model_error": true,
+    "photo_removal": true,
+    "clear_and_public_domain_sample": true,
+    "responsive_and_phone_privacy": true,
+    "no_browser_page_errors": true,
+    "browser_requests_local_origin_only": true
+  },
+  "viewports": [
+    {
+      "width": 320,
+      "height": 780,
+      "no_horizontal_overflow": true,
+      "privacy_navigation": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "privacy_navigation": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "no_horizontal_overflow": true,
+      "privacy_navigation": true
+    }
+  ],
+  "model_available": false,
+  "page_errors": [],
+  "observed_request_count": 29,
+  "status": "passed",
+  "limitations": [
+    "Real Gemma vision inference is not verified by this browser check.",
+    "Browser request observations are not an OS-level network audit.",
+    "No relevance, effort-saving, VRAM, or physical phone networking claim is made.",
+    "Screenshots use empty UI or public-domain NASA sample; no AI results are fabricated."
+  ]
+}

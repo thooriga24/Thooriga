@@ -1,0 +1,11 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.env
+*.pyc
+docs/browser-export.zip
+local-smoke.json
+local-smoke*.json
+*.log
